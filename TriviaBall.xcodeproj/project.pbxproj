@@ -81,7 +81,7 @@
 			children = (
 				33DC7F2D1C24F11000E92263 /* TriviaBall */,
 				33DC7F421C24F11000E92263 /* TriviaBallTests */,
-				33DC7F4D1C24F11000E92263 /* AnswerBallUITests */,
+				33DC7F4D1C24F11000E92263 /* TriviaBallUITests */,
 				33DC7F2C1C24F11000E92263 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -121,12 +121,13 @@
 			path = AnswerBallTests;
 			sourceTree = "<group>";
 		};
-		33DC7F4D1C24F11000E92263 /* AnswerBallUITests */ = {
+		33DC7F4D1C24F11000E92263 /* TriviaBallUITests */ = {
 			isa = PBXGroup;
 			children = (
 				33DC7F4E1C24F11000E92263 /* TriviaBallUITests.swift */,
 				33DC7F501C24F11000E92263 /* Info.plist */,
 			);
+			name = TriviaBallUITests;
 			path = AnswerBallUITests;
 			sourceTree = "<group>";
 		};
@@ -408,7 +409,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnswerBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KP.AnswerBall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KP.TriviaBall;
 				PRODUCT_NAME = TriviaBall.temp_caseinsensitive_rename;
 			};
 			name = Debug;
@@ -420,7 +421,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = AnswerBall/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.KP.AnswerBall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.KP.TriviaBall;
 				PRODUCT_NAME = TriviaBall.temp_caseinsensitive_rename;
 			};
 			name = Release;
